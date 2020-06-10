@@ -1,0 +1,178 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{float}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\newlength{\mylen}
+\setbox1=\hbox{$\bullet$}\setbox2=\hbox{\tiny$\bullet$}
+\setlength{\mylen}{\dimexpr0.5\ht1-0.5\ht2}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.25in}
+\addtolength{\evensidemargin}{-0.275in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-1in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item[\huge|]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+
+%-----------EDUCATION-----------------
+\section{Scholastic Achievements}
+\renewcommand\labelitemi{\raisebox{\mylen}{\tiny$\bullet$}}
+  \begin{itemize}[nosep,wide]
+  \itemsep0em
+      \item Lorem ipsum dolor sit amet, et pri enim recteque. 
+      \item Lorem ipsum dolor sit amet, et pri enim recteque \hfill (2016)
+      \item Lorem ipsum dolor sit amet, et pri enim recteque. \hfill (2016)  
+    \end{itemize}     
+
+
+\vspace*{-10pt}
+%-----------Project-----------------
+\section{Projects}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NAME}{Period}
+      {Guide: Name}{Summer Project}
+      \begin{itemize}[nosep]
+    \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+    \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+     \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+
+      \end{itemize}
+      \resumeSubHeadingListEnd
+%-----------Skills-----------------
+
+\vspace*{-20pt}
+\section{Technical Skills}
+\hspace*{1em}\textbf{Programming Languages:} \hspace{1em}  C, C++, ....\\
+\hspace*{1em}\textbf{Software Packages:}\hspace{4.7em} AutoCAD,.....
+%-----------Courses----------------
+
+\vspace*{-10pt}
+\section{Key Courses Undertaken}
+  
+    \hspace*{1em}\textbf{Department:} \hspace{7.3em} Courses
+    
+    \hspace*{1em}\textbf{Department2:} \hspace{6.7em} Other courses
+    
+   \hspace*{1em}\textbf{Others:} \hspace{9.9em} Courses \\
+   \hfill \textit{*To be completed by December 2018} \\
+\vspace*{-15pt}
+%----------Position of responsibility--------
+\section{Position of responsibility}
+    \resumeSubHeadingListStart 
+    \resumeSubheading{Position}{Time}{Event}{}
+    \begin{itemize}[nosep]
+        
+        \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+        \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+        \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+    \end{itemize}
+    
+    \resumeSubHeadingListEnd
+
+
+%--------------Co-curricular-------------
+
+\vspace*{-20pt}
+\section{Extra Curricular Activities}
+
+\begin{itemize}[nosep,wide]
+    \item Lorem ipsum dolor sit amet, et pri enim recteque.Lorem ipsum dolor sit amet, et pri enim recteque.
+    \item Lorem ipsum dolor sit amet, et pri enim recteque.
+     \item Lorem ipsum dolor sit amet, et pri enim recteque. 
+\end{itemize}
+
+
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
